@@ -1,0 +1,15 @@
+
+a. What is dialog? 
+a) A Dialog is small window that prompts the user to a decision or enter additional information.
+
+b. How to create custom dialog? 
+a)     1 Android Layout Files. Two XML files, one for main screen, one for custom dialog. File : res/layout/main.xml. ...
+    Activity. Read the comment and demo in next step, it should be self-explorary. ...
+    Demo. Start it, the “ main.xml ” layout is display.
+   
+
+c. How to use existing dialogs? 
+a)  Your DialogFragment can implement the onCreateDialog method and return an existing dialog. The Dialog class is the base class for implementing a dialog. Typically, you use one of its subclasses, e.g., AlertDialog, ProgressDialog, DatePickerDialog or TimePickerDialog.
+
+Android also provides a ProgressDialog, which can be opened via a ProgressDialog.open() method call.
+
